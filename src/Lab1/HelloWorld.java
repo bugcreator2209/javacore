@@ -18,11 +18,22 @@ public class HelloWorld {
 
 		// 2. Các hàm xuất ra màn hình
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Your name is: ");
-		String name = scanner.nextLine();
-		System.out.println("Your age is: ");
-		int age = scanner.nextInt();
-		System.out.println("My name is " + name + ", age = " + age);
+//		System.out.println("Your name is: ");
+//		String name = scanner.nextLine();
+//		System.out.println("Your age is: ");
+//		int age = scanner.nextInt();
+//		System.out.println("My name is " + name + ", age = " + age);
+//		scanner.close();
+		
+		// 3. Các hàm toán tử.
+		System.out.println("First Number: ");
+		int firstNumber = scanner.nextInt();
+		
+		System.out.println("Second Number: ");
+		int secondNumber = scanner.nextInt();
+		
+		System.out.println("Sum of total number " + (firstNumber + secondNumber));
+		System.out.println("Max of numberL: " + Math.max(firstNumber, secondNumber));
 		scanner.close();
 	}
 }
