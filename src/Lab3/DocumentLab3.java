@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class DocumentLab3 {
 	public static void main(String[] args) {
 		//#1: Vòng lặp
-		
 		//1. Vòng lặp for
 		for (int i = 0; i < 5; i++) {
 			// Câu lệnh break - thoát hẳn vòng lặp
